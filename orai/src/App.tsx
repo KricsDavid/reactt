@@ -1,4 +1,4 @@
-import  WelcomeMessage  from "./Welcome";
+import  WelcomeMessageProps  from "./Welcome";
 import  Itemlist  from "./ItemList";
 import StyledBox from "./Card"
 import Product from "./Interface";
@@ -11,7 +11,7 @@ function App() {
     <>
       <div>
 
-      <WelcomeMessage></WelcomeMessage>
+      <WelcomeMessageProps></WelcomeMessageProps>
       <Itemlist></Itemlist>
       <StyledBox></StyledBox>
       <Product></Product>
